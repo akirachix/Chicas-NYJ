@@ -17,7 +17,8 @@
     margin-top: 14%;
     margin-left: 33%;
   }
-  .nav-item:hover {
+  .nav-item:hover,
+  .modal-content li a:hover {
     color: rgb(48, 69, 208);
   }
   .nav-item {
@@ -28,7 +29,7 @@
     display: flex;
     gap: 2%;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
     top: 40px;
     left: 5px;
@@ -42,7 +43,7 @@
     color: white;
   }
   
-  nav a:hover {
+  nav a:hover, .modal-content li a:hover {
     text-decoration: underline;
   }
   .hamburger-icon {
@@ -52,7 +53,7 @@
   }
 
   .modal {
-    display: none;
+    /* display: none; */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -83,16 +84,49 @@ body{
 
 @media (max-width: 768px) {
     .navbar {
-      gap: 10%;
+      gap: 50%;
       font-size: 20px;
       height: 80px;
     }
+
+    .modal {
+        /* display: none; */
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.808);
+      }
+      .modal-content {
+        margin: 2% auto;
+        font-size: 35px;
+        padding: 10px;
+        gap: 2%;
+        color: rgb(82, 68, 228);
+        width: 30%;
+      }
+      .modal-content li a {
+        color: rgb(82, 68, 228);
+        font-size: 35px;
+      }
+      
+      .modal-content li a:hover {
+        text-decoration: underline;
+        color: blue;
+      }
   
     .navigations {
       font-size: 16px;
       top: 15px;
       left: 550px;
       gap: 50%;
+    }
+    .close-button{
+        margin-left: 97%;
+        margin-top: -7px;
     }
   
     .subscribe {
@@ -101,13 +135,24 @@ body{
       font-size: 16px;
       left: 650px;
     }
+    .logo img{
+        width: 150%;
+        height: 40px;
+        margin-top: 16%;
+        margin-left: 25px;
+      }
+      .hamburger-icon {
+        display: block;
+        margin-left: 73%;
+      }
+
   }
   
   /* Mobile Breakpoint (max-width: 480px) */
   @media (max-width: 480px) {
     .navbar {
       gap: 5%;
-      font-size: 16px;
+      font-size: 10px;
       height: 60px;
     }
   
@@ -132,5 +177,103 @@ body{
   
     body {
       overflow-x: hidden;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .navbar {
+      gap: 30%;
+      font-size: 18px;
+      height: 70px;
+    }
+  
+    .modal-content {
+      width: 50%;
+      font-size: 30px;
+    }
+  
+    .modal-content li a {
+      font-size: 30px;
+    }
+  
+    .navigations {
+      font-size: 14px;
+      top: 12px;
+      left: -80px;
+      gap: 15%;
+    }
+  
+    .close-button {
+      margin-left: 95%;
+      margin-top: -5px;
+    }
+  
+    .subscribe {
+      width: 90px;
+      height: 35px;
+      font-size: 14px;
+      left: -100px;
+      top: -15px;
+    }
+  
+    .logo img {
+      width: 350%;
+      height: 55px;
+      margin-top: 18%;
+      margin-left: 20px;
+    }
+  
+    .hamburger-icon {
+      display: block;
+      margin-left: 68%;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1300px) {
+    .navbar {
+      gap: 30%;
+      font-size: 18px;
+      height: 100px;
+    }
+  
+    .modal-content {
+      width: 50%;
+      font-size: 30px;
+    }
+  
+    .modal-content li a {
+      font-size: 30px;
+    }
+  
+    .navigations {
+    font-size: 40%;
+      top: 42px;
+      left: -80px;
+      gap: 15%;
+    }
+  
+    .close-button {
+      margin-left: 95%;
+      margin-top: -5px;
+    }
+  
+    .subscribe {
+      width: 110px;
+      height: 45px;
+      font-size: 20px;
+      left: -100px;
+      top: -5px;
+    }
+  
+    .logo img {
+      width: 150%;
+      height: 65px;
+      margin-top: 18%;
+      margin-left: 20px;
+    }
+  
+    .hamburger-icon {
+      display: block;
+      margin-left: 68%;
     }
   }

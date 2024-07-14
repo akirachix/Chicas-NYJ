@@ -29,25 +29,45 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-        <div className='logo'> 
-        <img src="/imgNavbarLoom/ChicasLogo.png" alt='' />
-        </div>
+      <div className="logo">
+        <img src="/imgNavbarLoom/ChicasLogo.png" alt="" />
+      </div>
       {!isMobileScreen && (
         <nav>
           <div className="navigations">
-            <Link to="/" className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Home')}>
+            <Link
+              to="/"
+              className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}
+              onClick={() => handleNavigationClick('Home')}
+            >
               Home
             </Link>
-            <Link to="/portfolio" className={`nav-item ${activeNavItem === 'Portfolio' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Portfolio')}>
+            <Link
+              to="/portfolio"
+              className={`nav-item ${activeNavItem === 'Portfolio' ? 'active' : ''} pointer`}
+              onClick={() => handleNavigationClick('Portfolio')}
+            >
               Portfolio
             </Link>
-            <Link to="/loom" className={`nav-item ${activeNavItem === 'Loom' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Loom')}>
+            <Link
+              to="/loom"
+              className={`nav-item ${activeNavItem === 'Loom' ? 'active' : ''} pointer`}
+              onClick={() => handleNavigationClick('Loom')}
+            >
               Loom
             </Link>
-            <Link to="/podcast" className={`nav-item ${activeNavItem === 'Podcast' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Podcast')}>
+            <Link
+              to="/podcast"
+              className={`nav-item ${activeNavItem === 'Podcast' ? 'active' : ''} pointer`}
+              onClick={() => handleNavigationClick('Podcast')}
+            >
               Podcast
             </Link>
-            <Link to="/blogs" className={`nav-item ${activeNavItem === 'Blogs' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Blogs')}>
+            <Link
+              to="/blogs"
+              className={`nav-item ${activeNavItem === 'Blogs' ? 'active' : ''} pointer`}
+              onClick={() => handleNavigationClick('Blogs')}
+            >
               Blogs
             </Link>
           </div>
@@ -74,29 +94,49 @@ const Navbar = () => {
             </span>
             <ol>
               <li>
-              <Link to="/" className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Home')}>
-              Home
-            </Link>
+                <Link
+                  to="/"
+                  className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}
+                  onClick={() => handleNavigationClick('Home')}
+                >
+                  Home
+                </Link>
               </li>
               <li>
-              <Link to="/portfolio" className={`nav-item ${activeNavItem === 'Portfolio' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Portfolio')}>
-              Portfolio
-            </Link>
+                <Link
+                  to="/portfolio"
+                  className={`nav-item ${activeNavItem === 'Portfolio' ? 'active' : ''} pointer`}
+                  onClick={() => handleNavigationClick('Portfolio')}
+                >
+                  Portfolio
+                </Link>
               </li>
               <li>
-              <Link to="/loom" className={`nav-item ${activeNavItem === 'Loom' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Loom')}>
-              Loom
-            </Link>
+                <Link
+                  to="/loom"
+                  className={`nav-item ${activeNavItem === 'Loom' ? 'active' : ''} pointer`}
+                  onClick={() => handleNavigationClick('Loom')}
+                >
+                  Loom
+                </Link>
               </li>
               <li>
-              <Link to="/podcast" className={`nav-item ${activeNavItem === 'Podcast' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Podcast')}>
-              Podcast
-            </Link>
+                <Link
+                  to="/podcast"
+                  className={`nav-item ${activeNavItem === 'Podcast' ? 'active' : ''} pointer`}
+                  onClick={() => handleNavigationClick('Podcast')}
+                >
+                  Podcast
+                </Link>
               </li>
               <li>
-              <Link to="/blogs" className={`nav-item ${activeNavItem === 'Blogs' ? 'active' : ''} pointer`}  onClick={() => handleNavigationClick('Blogs')}>
-              Blogs
-            </Link>
+                <Link
+                  to="/blogs"
+                  className={`nav-item ${activeNavItem === 'Blogs' ? 'active' : ''} pointer`}
+                  onClick={() => handleNavigationClick('Blogs')}
+                >
+                  Blogs
+                </Link>
               </li>
             </ol>
           </div>
