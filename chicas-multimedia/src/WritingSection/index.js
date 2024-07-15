@@ -16,7 +16,7 @@ return(
          In the landscape of impactful memoirs, Trevor Noah's "Born a Crime" stands out as a compelling narrative that transcends borders and resonates deeply with readers worldwide. Published in 2016, this memoir not only recounts Noah's upbringing during apartheid in South Africa but also delves into broader themes of identity, injustice, and resilience that remain incredibly relevant today.
          </p>
 
-         <button id="readOnBtn">Read On</button>
+         {/* <button id="readOnBtn">Read On</button> */}
        </div>
 
 
@@ -103,7 +103,7 @@ return(
 
         <h2>References</h2>
         <p>
-        Noah, Trevor. Born a Crime: Stories from a South African Childhood. Spiegel & Grau, 2016.
+        <a href="https://pursuitofdiversity.files.wordpress.com/2018/06/born-a-crime-trevor-noah.pdf"  id="">Noah, Trevor. Born a Crime: Stories from a South African Childhood. Spiegel & Grau, 2016.</a>
         </p>
 
      </div>

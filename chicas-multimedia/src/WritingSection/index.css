@@ -3,21 +3,22 @@
 .body{
     top: 0;
     margin: 5% ;
-    font-family: 'poppins';
+    
  }
  
  .blogHeading{
-    background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg');
-    height: 700px;
+   background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg');
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 30px;  
  }
  .topHeading{
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    color: yellow;
+    color: #FFC907;
     text-align: left;
     padding: 3%;
     padding-right: 50%;
@@ -37,37 +38,29 @@
  h2{
     font-size: 40px;
     text-align: left;
-    color: blue;
+    color:white;
  }
  
  
  p{
     font-size: 20px;
     text-align: justify;
+    color: #FFC907;
  }
  
 
  #readOnBtn{
    height: 50px;
    width: 180px;
-   background-color: yellow;
+   background-color:#FFC907;
    border-radius: 30px;
-   border: yellow;
+   border: #FFC907;
    box-shadow: 5px 5px 5px blue;
    font-size: 25px;
    font-weight: bolder;
    color: blue;
  }
 
- /* EXPLORING DIV */
-
- /* .exploring{
-    display: flex;
-    gap: 100px;
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
- } */
 
  #exploringImage{
    height: 500px;
@@ -80,6 +73,7 @@
 #exploringContent{
    font-size: 25px;
    font-style: oblique;
+   
 }
 
 
@@ -117,13 +111,14 @@
 .cardContent{
    color: white;
    margin: 10%;
-   font-size: 30px;
+   line-height: 30px;
+   font-size: 25px;
    font-style: oblique;
 }
 
 #cardHeading{
-padding: 25px;
-color: yellow;
+padding: 30px;
+color: #FFC907;
 text-align: center;
 }
 
@@ -131,7 +126,7 @@ text-align: center;
 
 a{
    text-decoration: none;
-   color: yellow;
+   color: #FFC907;
 }
 
 
@@ -140,3 +135,530 @@ a{
 .paragraph{
    font-size: 25px;
 }
+
+
+@media only screen and (max-width: 480px){
+ .body{
+      top: 0;
+      margin: 5% ;
+      
+   }
+   
+   .blogHeading{
+      background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg');
+      height: 650px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 320px;
+      border-radius: 30px;  
+   }
+   .topHeading{
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+      color: #FFC907;
+      text-align: left;
+      padding: 3%;
+      padding-right: 20%;
+      padding-left:5% ;
+      padding-top: 10%;
+   }
+   
+   
+   .blogIntro{
+      font-size: 20px;
+      color: white;
+      margin: 2%;
+      font-style: italic;
+      text-align: left;
+      padding-left:5% ;
+   }
+   
+   h2{
+      font-size: 30px;
+      text-align: left;
+      color:white;
+      margin-top: 5%;
+   }
+   
+   
+   p{
+      font-size: 20px;
+      text-align: justify;
+      color: #FFC907;
+   }
+   
+   #exploringImage{
+     height: 500px;
+     width: 500px;
+     border-radius: 50px;
+     box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+     margin-top: 10%;
+  }
+  
+  #exploringContent{
+     font-size: 25px;
+     font-style: oblique;
+     
+  }
+  
+  
+  
+  /* cARDS */
+  .cards{
+     display: flex;
+     justify-content: space-around;
+     gap: 40px;
+     flex-direction: column;
+  
+     
+  }
+  
+  
+  .cardOne{
+     background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg');
+   height: 360px;
+     width: 320px;
+     border-radius: 50px;
+     box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+     margin-top: 10%;
+  }
+  
+  
+  
+  .cardTwo{
+   background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg');
+   height: 390px;
+   width: 320px;
+     border-radius: 50px;
+     box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+     margin-top: 10%;
+  }
+  
+  .cardContent{
+     color: white;
+     margin: 10%;
+     font-size: 20px;
+     text-align: left;
+     font-style: oblique;
+     line-height: 25px;
+  }
+  
+  #cardHeading{
+  padding: 25px;
+  color: #FFC907;
+  text-align: center;
+  }
+  
+  
+  
+  a{
+     text-decoration: none;
+     color: #FFC907;
+  }
+  
+  
+  
+  
+  .paragraph{
+     font-size: 25px;
+  }
+  
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+
+.body{
+   top: 0;
+   margin: 5% ;
+}
+
+.blogHeading{
+   background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg');
+   height: 950px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 30px;  
+   width: 700px;
+   
+}
+.topHeading{
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   color: #FFC907;
+   text-align: left;
+   padding: 3%;
+   padding-right: 50%;
+   padding-left:5% ;
+}
+
+
+.blogIntro{
+   font-size: 30px;
+   color: white;
+   margin: 2%;
+   font-style: italic;
+   text-align: left;
+   padding-left:5% ;
+}
+
+h2{
+   font-size: 40px;
+   text-align: left;
+   color:white;
+}
+
+
+p{
+   font-size: 20px;
+   text-align: justify;
+   color: #FFC907;
+}
+
+
+
+
+#exploringImage{
+  height: 500px;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+}
+
+#exploringContent{
+  font-size: 25px;
+  font-style: oblique;
+  
+}
+
+
+
+/* cARDS */
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 40px;
+  margin-right: 5%;
+  margin-left: 2%;
+
+  
+}
+
+
+.cardOne{
+  background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg');
+  height: 500px;
+  width: 700px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+}
+
+
+
+.cardTwo{
+  background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg');
+height: 500px;
+  width: 700px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-left: 2%;
+}
+
+.cardContent{
+  color: white;
+  margin: 10%;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+#cardHeading{
+padding: 30px;
+color: #FFC907;
+text-align: center;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: #FFC907;
+}
+
+
+
+
+.paragraph{
+  font-size: 25px;
+}
+
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+.body{
+   top: 0;
+   margin: 5% ;
+   
+}
+
+.blogHeading{
+  background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg');
+   height: 800px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 30px;  
+}
+.topHeading{
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   color: #FFC907;
+   text-align: left;
+   padding: 3%;
+   padding-right: 10%;
+   padding-left:5% ;
+}
+
+
+.blogIntro{
+   font-size: 30px;
+   color: white;
+   line-height: 35px;
+   margin: 2%;
+   font-style: italic;
+   text-align: left;
+   padding-left:5% ;
+}
+
+h2{
+   font-size: 40px;
+   text-align: left;
+   color:white;
+}
+
+
+p{
+   font-size: 20px;
+   text-align: justify;
+   color: #FFC907;
+}
+
+
+
+
+#exploringImage{
+  height: 500px;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+}
+
+#exploringContent{
+  font-size: 25px;
+  font-style: oblique;
+  
+}
+
+
+
+/* cARDS */
+.cards{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-direction: column;
+
+  
+}
+
+
+.cardOne{
+  background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg');
+  height: 500px;
+  width: 800px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+}
+
+
+
+.cardTwo{
+  background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg');
+height: 500px;
+  width: 800px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+}
+
+.cardContent{
+  color: white;
+  margin: 10%;
+  line-height: 40px;
+  font-size: 35px;
+  font-style: oblique;
+}
+
+#cardHeading{
+padding: 50px;
+color: #FFC907;
+text-align: center;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: #FFC907;
+}
+
+
+
+
+.paragraph{
+  font-size: 25px;
+}
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+
+
+.body{
+   top: 0;
+   margin: 5% ;
+   
+}
+
+.blogHeading{
+  background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/bookcover.jpeg');
+   height: 800px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 30px;  
+}
+.topHeading{
+   font-size: 70px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   color: #FFC907;
+   text-align: left;
+   padding: 3%;
+   padding-right: 20%;
+   padding-left:5% ;
+}
+
+
+.blogIntro{
+   font-size: 30px;
+   color: white;
+   margin: 2%;
+   font-style: italic;
+   text-align: left;
+   padding-left:5% ;
+}
+
+h2{
+   font-size: 40px;
+   text-align: left;
+   color:white;
+}
+
+
+p{
+   font-size: 20px;
+   text-align: justify;
+   color: #FFC907;
+}
+
+
+
+#exploringImage{
+  height: 500px;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+}
+
+#exploringContent{
+  font-size: 25px;
+  font-style: oblique;
+  
+}
+
+
+
+/* cARDS */
+.cards{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+
+  
+}
+
+
+.cardOne{
+  background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg');
+height: 350px;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+}
+
+
+
+.cardTwo{
+  background-image:linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.5)) ,url('/home/studen/Desktop/folder-with-repo/Multimedia_group_work/nyj-multimedia/public/media/identity.jpg');
+height: 350px;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: rgb(74, 74, 189) 5px 5px 10px 3px ;
+  margin-top: 10%;
+}
+
+.cardContent{
+  color: white;
+  margin: 10%;
+  line-height: 20px;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+#cardHeading{
+padding: 30px;
+color: #FFC907;
+text-align: center;
+font-size: 20px;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: #FFC907;
+}
+
+
+
+
+.paragraph{
+  font-size: 25px;
+}
+
+}
+
+@media only screen and (min-width: 1281px){}
