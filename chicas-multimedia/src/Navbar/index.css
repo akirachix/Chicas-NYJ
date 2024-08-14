@@ -64,6 +64,7 @@
     background-color: rgba(0, 0, 0, 0.808);
   }
   .modal-content {
+    list-style: none;
     margin: 2% auto;
     padding: 20px;
     color: white;
@@ -98,11 +99,12 @@ body{
         width: 100%;
         height: 100%;
         overflow: auto;
-        background-color: rgba(0, 0, 0, 0.808);
+        background-color: rgba(0, 0, 0, 0.752);
       }
-      .modal-content {
-        margin: 2% auto;
-        font-size: 35px;
+      .modal-content li{
+        list-style: none;
+        margin: 5% auto;
+        margin-left: -70px;
         padding: 10px;
         gap: 2%;
         color: rgb(82, 68, 228);
@@ -110,23 +112,25 @@ body{
       }
       .modal-content li a {
         color: rgb(82, 68, 228);
-        font-size: 35px;
+        font-size: 25px;
       }
       
-      .modal-content li a:hover {
+      .modal-content ul li a:hover {
         text-decoration: underline;
         color: blue;
       }
   
     .navigations {
       font-size: 16px;
-      top: 15px;
+      top: 14px;
       left: 550px;
       gap: 50%;
     }
     .close-button{
-        margin-left: 97%;
-        margin-top: -7px;
+        margin-left: 103%;
+        margin-top: -19px;
+        width: 20%;
+        height: 40px;
     }
   
     .subscribe {

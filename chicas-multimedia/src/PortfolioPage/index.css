@@ -1,12 +1,12 @@
 img{
-    height: 28vh;
-    width: 20vw;
-    border-radius: 15%;
+    height: 30vh;
+    width: 16vw;
+    border-radius: 50%;
     text-align: center;
 }
 body{
-    background-color: #323E6C;
-    margin-top: 6%;
+    background-color: #323E6C
+    ;
 }
 figcaption{
     color: rgb(228, 231, 214);
@@ -35,7 +35,7 @@ p{
     text-align: center;
     border: solid ;
     border-color: rgb(203, 213, 213);
-    box-shadow: 3px 6px 5px rgb(53, 115, 216);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
     border: 1px;
     height: 390px;
 }
@@ -44,7 +44,7 @@ p{
     text-align: center;
     border: solid ;
     border-color: rgb(203, 213, 213);
-    box-shadow: 3px 6px 5px rgb(53, 115, 216);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
     border: 1px;
 }
 #yvonne{
@@ -52,27 +52,26 @@ p{
     text-align: center;
     border: solid ;
     border-color: rgb(203, 213, 213);
-    box-shadow: 3px 6px 5px rgb(53, 115, 216);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
     border: 1px;
 }
 #rehema{
     text-align: center;
     border: solid ;
     border-color: rgb(203, 213, 213);
-    box-shadow: 3px 6px 5px rgb(53, 115, 216);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
     border: 1px;
 }
 #jemimah{
     text-align: center;
     border: solid ;
     border-color: rgb(203, 213, 213);
-    box-shadow: 3px 6px 5px rgb(53, 115, 216);
+    box-shadow: 3px 6px 5px rgb(110, 228, 25);
     border: 1px;
 }
 a{
     text-decoration: none;
-    color: rgb(94, 241, 241);
-    font-size: 19px;
+    color: rgb(49, 235, 8);
     cursor: pointer;
 }
 a:hover{
@@ -125,10 +124,9 @@ a:hover{
         margin-left: 20px;
         margin-right: 20px;
     }
-    #fanny{
+    /* #fanny{
         margin-top: 1%;
         margin-bottom: 1%;
-        height: 90px;
     }
     #Rehema{
         margin-top: 10%;
@@ -139,7 +137,7 @@ a:hover{
     }
     #yvonne{
         margin-top: 10%;
-    }
+    } */
 }
 @media screen and (min-width:280px) and (max-width:480px) {
     img{

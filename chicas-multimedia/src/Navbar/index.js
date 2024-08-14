@@ -36,7 +36,7 @@ const Navbar = () => {
         <nav>
           <div className="navigations">
             <Link
-              to="/"
+              to="/home"
               className={`nav-item ${activeNavItem === 'Home' ? 'active' : ''} pointer`}
               onClick={() => handleNavigationClick('Home')}
             >
@@ -92,7 +92,7 @@ const Navbar = () => {
             <span className="close-button" onClick={toggleMenu}>
               &times;
             </span>
-            <ol>
+            <ul>
               <li>
                 <Link
                   to="/"
@@ -138,13 +138,10 @@ const Navbar = () => {
                   Blogs
                 </Link>
               </li>
-            </ol>
+            </ul>
           </div>
         </div>
       )}
-      <div>
-        <button className="subscribe">Subscribe</button>
-      </div>
     </div>
   );
 };
